@@ -257,10 +257,7 @@ export function ReservaPublica() {
               ) : (
                 <>
                   <Clock size={36} className="mx-auto mb-2 text-slate-600" />
-                  <p className="text-sm font-bold text-slate-300">No hay horarios disponibles</p>
-                  <p className="text-xs text-slate-500 mt-1">
-                    Armando aún no ha publicado la agenda para este día.
-                  </p>
+                  <p className="text-sm font-bold text-slate-300">No hay horarios disponibles</p><p className="text-xs text-slate-500 mt-1">Timantti aún no ha publicado la agenda para este día.</p>
                 </>
               )}
             </div>
@@ -322,7 +319,7 @@ export function ReservaPublica() {
               <MessageCircle size={24} className="mx-auto mb-2 text-emerald-400" />
               <p className="text-xs font-semibold text-emerald-300">Reservas por WhatsApp</p>
               <p className="mt-1 text-[11px] text-slate-400">
-                Tocá un horario disponible para enviar un mensaje a Armando
+                Tocá un horario disponible para enviar un mensaje a Timantti
               </p>
               <a
                 href={`https://wa.me/${barberPhoneClean}`}
@@ -466,7 +463,7 @@ export function ReservaPublica() {
             </div>
 
             <p className="text-xs text-slate-400">
-              Se abrió WhatsApp para notificar a Armando. Si no se abrió automáticamente, tocá el botón de abajo:
+              Se abrió WhatsApp para notificar a Timantti. Si no se abrió automáticamente, tocá el botón de abajo:
             </p>
 
             <a

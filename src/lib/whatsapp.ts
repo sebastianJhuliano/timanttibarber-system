@@ -47,7 +47,7 @@ export function whatsappUrl(telefono: string, mensaje: string): string {
 export function mensajePlanPorVencer(cliente: Cliente, plan: Plan): string {
   const nombre = cliente.nombre
   const fin = formatearFechaCorta(plan.fechaFin)
-  return `Hola ${nombre}, desde Armando Barber te recordamos que tu plan vence el ${fin}. ¡Renueva a tiempo para seguir luciendo bien!`
+  return `Hola ${nombre}, desde Timantti Barber te recordamos que tu plan vence el ${fin}. ¡Renueva a tiempo para seguir luciendo bien!`
 }
 
 

@@ -72,7 +72,7 @@ export function InstallPWA() {
         </div>
         <div className="flex-1">
           <h3 className="text-xs font-bold text-white uppercase tracking-wider">
-            Instalar Armando Barber App
+            Instalar Timantti Barber App
           </h3>
           <p className="text-[11px] text-slate-300 mt-0.5">
             {instalable
