@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Permitir acceso completo a todos los documentos
+    // La app usa autenticación anónima de Firebase
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

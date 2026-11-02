@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-barber-50: #eff6ff;
+  --color-barber-100: #dbeafe;
+  --color-barber-200: #bfdbfe;
+  --color-barber-300: #93c5fd;
+  --color-barber-400: #60a5fa;
+  --color-barber-500: #3b82f6;
+  --color-barber-600: #2563eb;
+  --color-barber-700: #1d4ed8;
+  --color-barber-800: #1e40af;
+  --color-barber-900: #1e3a8a;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  min-height: 100dvh;
+  overscroll-behavior: none;
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
+}
+
+input,
+select,
+textarea,
+button {
+  font-size: 16px;
+}
+
+.list-item {
+  content-visibility: auto;
+  contain-intrinsic-size: 64px;
+}
